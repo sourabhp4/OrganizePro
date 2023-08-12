@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ReminderNote"
+        tools:targetApi="31">
+        <activity
+            android:name=".activities.BackupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PastNotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PastCountdownsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PastTodosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PastRemindersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UpdateNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddCountdownActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ViewTodoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddTodoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UpdateReminderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddReminderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.NotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CountDownsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ToDosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RemindersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UpdateProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ExploreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.GetStartedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
