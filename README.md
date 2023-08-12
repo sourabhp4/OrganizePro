@@ -1,6 +1,6 @@
 # OrganizePro: Your Ultimate Productivity App
 
-![ReminderImage](https://github.com/sourabhp4/OrganizePro/assets/97785784/348b87c4-4626-4764-97b6-793f12e5d823)
+![ReminderImageCopy](https://github.com/sourabhp4/OrganizePro/assets/97785784/3cb738aa-f1df-4a74-979a-3225658b1017)
 
 
 Welcome to OrganizePro - the ultimate productivity app designed to empower you with efficient task management, seamless reminders, countdowns, to-do lists, and note-taking capabilities, all wrapped in a sleek and intuitive interface. Say goodbye to chaos and hello to a well-organized and streamlined workflow.
