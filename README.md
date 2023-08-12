@@ -86,7 +86,7 @@ We understand the importance of data security and reliability in a productivity 
 
 Ready to boost your productivity? Follow these steps to get started with OrganizePro:
 
-1. Clone the repository: `git clone https://github.com/your-username/OrganizePro.git`
+1. Clone the repository: `git clone https://github.com/sourabhp4/OrganizePro.git`
 2. Open the project in Android Studio.
 3. Build and run the app on your preferred Android device or emulator.
 
